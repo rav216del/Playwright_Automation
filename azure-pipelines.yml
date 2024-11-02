@@ -4,7 +4,7 @@
 # https://docs.microsoft.com/azure/devops/pipelines/languages/javascript
 
 trigger:
-- main
+- API_Basics
 
 pool:
   vmImage: ubuntu-latest
@@ -17,5 +17,7 @@ steps:
 
 - script: |
     npm install
+    npx playwright install  # Install Playwright dependencies if needed
+    npx playwright test  # Run Playwright tests
     npm run build
   displayName: 'npm install and build'
