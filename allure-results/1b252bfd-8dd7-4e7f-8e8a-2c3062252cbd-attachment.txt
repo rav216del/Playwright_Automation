@@ -1,0 +1,13 @@
+{
+  bookingid: 3474,
+  booking: {
+    firstname: 'Ervin',
+    lastname: 'McGlynn',
+    totalprice: 644,
+    depositpaid: true,
+    bookingdates: { checkin: '2024-10-29', checkout: '2024-10-31' },
+    additionalneeds: 'super bowls'
+  }
+}
+****************************************************
+[ { bookingid: 3474 } ]

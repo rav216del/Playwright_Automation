@@ -1,0 +1,13 @@
+{
+  bookingid: 1065,
+  booking: {
+    firstname: 'Charles',
+    lastname: 'Crona',
+    totalprice: 340,
+    depositpaid: true,
+    bookingdates: { checkin: '2024-10-29', checkout: '2024-10-31' },
+    additionalneeds: 'super bowls'
+  }
+}
+****************************************************
+[ { bookingid: 1065 } ]

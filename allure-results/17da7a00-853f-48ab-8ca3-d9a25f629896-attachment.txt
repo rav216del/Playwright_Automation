@@ -1,0 +1,31 @@
+***********************POST API CALL*************************************
+{
+  bookingid: 6528,
+  booking: {
+    firstname: 'Gwendolyn',
+    lastname: 'Schmeler',
+    totalprice: 964,
+    depositpaid: true,
+    bookingdates: { checkin: '2024-10-29', checkout: '2024-10-31' },
+    additionalneeds: 'super bowls'
+  }
+}
+***********************GET API CALL*************************************
+{
+  firstname: 'Gwendolyn',
+  lastname: 'Schmeler',
+  totalprice: 964,
+  depositpaid: true,
+  bookingdates: { checkin: '2024-10-29', checkout: '2024-10-31' },
+  additionalneeds: 'super bowls'
+}
+token no is  : 9779e29ac409937
+***********************PUT API CALL*************************************
+{
+  firstname: 'Specflow',
+  lastname: 'Selenium C#',
+  totalprice: 111,
+  depositpaid: true,
+  bookingdates: { checkin: '2025-01-01', checkout: '2025-01-02' },
+  additionalneeds: 'super bowls'
+}

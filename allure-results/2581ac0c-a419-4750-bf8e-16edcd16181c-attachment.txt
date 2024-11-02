@@ -1,0 +1,11 @@
+{
+  bookingid: 1059,
+  booking: {
+    firstname: 'Fred',
+    lastname: 'Lakin',
+    totalprice: 509,
+    depositpaid: true,
+    bookingdates: { checkin: '2024-10-29', checkout: '2024-10-31' },
+    additionalneeds: 'super bowls'
+  }
+}

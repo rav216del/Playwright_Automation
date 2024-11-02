@@ -1,0 +1,20 @@
+{
+  bookingid: 1164,
+  booking: {
+    firstname: 'Rowan',
+    lastname: 'Langosh',
+    totalprice: 817,
+    depositpaid: true,
+    bookingdates: { checkin: '2024-10-29', checkout: '2024-10-31' },
+    additionalneeds: 'super bowls'
+  }
+}
+****************************************************
+{
+  firstname: 'Rowan',
+  lastname: 'Langosh',
+  totalprice: 817,
+  depositpaid: true,
+  bookingdates: { checkin: '2024-10-29', checkout: '2024-10-31' },
+  additionalneeds: 'super bowls'
+}

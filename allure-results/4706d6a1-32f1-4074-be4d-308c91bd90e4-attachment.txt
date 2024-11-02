@@ -1,0 +1,31 @@
+***********************POST API CALL*************************************
+{
+  bookingid: 3476,
+  booking: {
+    firstname: 'Ezekiel',
+    lastname: 'Wunsch',
+    totalprice: 473,
+    depositpaid: true,
+    bookingdates: { checkin: '2024-10-29', checkout: '2024-10-31' },
+    additionalneeds: 'super bowls'
+  }
+}
+***********************GET API CALL*************************************
+{
+  firstname: 'Ezekiel',
+  lastname: 'Wunsch',
+  totalprice: 473,
+  depositpaid: true,
+  bookingdates: { checkin: '2024-10-29', checkout: '2024-10-31' },
+  additionalneeds: 'super bowls'
+}
+token no is  : ba9f9d88e927611
+***********************PUT API CALL*************************************
+{
+  firstname: 'Specflow',
+  lastname: 'Selenium C#',
+  totalprice: 111,
+  depositpaid: true,
+  bookingdates: { checkin: '2025-01-01', checkout: '2025-01-02' },
+  additionalneeds: 'super bowls'
+}

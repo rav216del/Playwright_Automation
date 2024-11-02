@@ -1,0 +1,32 @@
+***********************POST API CALL*************************************
+{
+  bookingid: 1048,
+  booking: {
+    firstname: 'Andres',
+    lastname: 'Dickinson',
+    totalprice: 982,
+    depositpaid: true,
+    bookingdates: { checkin: '2024-10-29', checkout: '2024-10-31' },
+    additionalneeds: 'super bowls'
+  }
+}
+***********************GET API CALL*************************************
+{
+  firstname: 'Andres',
+  lastname: 'Dickinson',
+  totalprice: 982,
+  depositpaid: true,
+  bookingdates: { checkin: '2024-10-29', checkout: '2024-10-31' },
+  additionalneeds: 'super bowls'
+}
+token no is  : f7c03dbad497558
+***********************PATCH API CALL*************************************
+{
+  firstname: 'Playwright testing by Patch',
+  lastname: 'Dickinson',
+  totalprice: 982,
+  depositpaid: true,
+  bookingdates: { checkin: '2024-10-29', checkout: '2024-10-31' },
+  additionalneeds: 'super bowls'
+}
+***********************DELETE API CALL*************************************

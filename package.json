@@ -1,0 +1,20 @@
+{
+  "name": "playwright_api_testers_talk",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@faker-js/faker": "^9.1.0",
+    "@playwright/test": "^1.48.2",
+    "@types/node": "^22.8.1",
+    "allure-commandline": "^2.31.0",
+    "allure-playwright": "^3.0.5"
+  },
+  "dependencies": {
+    "luxon": "^3.5.0"
+  }
+}
