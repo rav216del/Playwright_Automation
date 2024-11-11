@@ -22,6 +22,8 @@ class DashboardPage {
         
 
     }
+
+    // navigate to cart
     async navigateToCart(){
         await this.cartButton.click()
     }
